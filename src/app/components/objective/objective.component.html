@@ -1,0 +1,15 @@
+<div class="container-fluid ">
+    <hr class="my-2">         
+    <h1 class="display-4" style="text-align: center;"  >L'Objectif:</h1>
+    <hr class="my-2">         
+    <p class="lead text-justify">Le projet <img [src]="logo" alt="logo"> présentait aux étudiants de la filière Sciences Mathématiques et Applications (SMA), en tous les modules des trois années: </p>
+          <div class="row">
+                    <div *ngFor="let objective of objectives;" class="col-xs-12 col-md-6 col-lg-4" >
+                        <div class="card  animate__animated animate__backInLeft ">
+                            <div class="card-body text-center">
+                                <h5 class="card-title">{{objective}}</h5>
+                            </div>       
+                         </div>
+                    </div>
+          </div>                    
+</div>
