@@ -9,6 +9,13 @@ import { ObjectiveComponent } from './components/home/objective/objective.compon
 import { InstructorComponent } from './components/home/instructor/instructor.component';
 import { ContactComponent } from './components/home/contact/contact.component';
 import { FooterComponent } from './components/common/footer/footer.component';
+import { YearComponent } from './pages/year/year.component';
+import { ModuleComponent } from './pages/module/module.component';
+import { VideosComponent } from './pages/videos/videos.component';
+import { BooksComponent } from './pages/books/books.component';
+import { BookComponent } from './pages/book/book.component';
+import { AppRoutingModule } from './routers/app-routing.module';
+import { CompetitionsComponent } from './pages/competitions/competitions.component';
 
 @NgModule({
   declarations: [
@@ -19,10 +26,17 @@ import { FooterComponent } from './components/common/footer/footer.component';
     ObjectiveComponent,
     InstructorComponent,
     ContactComponent,
-    FooterComponent
+    FooterComponent,
+    YearComponent,
+    ModuleComponent,
+    VideosComponent,
+    BooksComponent,
+    BookComponent,
+    CompetitionsComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    AppRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]
