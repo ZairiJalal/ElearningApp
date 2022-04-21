@@ -16,6 +16,7 @@ import { BooksComponent } from './pages/books/books.component';
 import { BookComponent } from './pages/book/book.component';
 import { AppRoutingModule } from './routers/app-routing.module';
 import { CompetitionsComponent } from './pages/competitions/competitions.component';
+import { SemesterComponent } from './components/year/semester/semester.component';
 
 @NgModule({
   declarations: [
@@ -32,7 +33,8 @@ import { CompetitionsComponent } from './pages/competitions/competitions.compone
     VideosComponent,
     BooksComponent,
     BookComponent,
-    CompetitionsComponent
+    CompetitionsComponent,
+    SemesterComponent
   ],
   imports: [
     BrowserModule,
