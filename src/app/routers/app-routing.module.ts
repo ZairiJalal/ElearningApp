@@ -10,7 +10,7 @@ import { CompetitionsComponent } from '../pages/competitions/competitions.compon
 
 const routes: Routes  =[
   {path:"home",component:HomeComponent },
-  {path:"year/:id",component:YearComponent },
+  {path:"years/:id",component:YearComponent },
   {path:"books",component:BooksComponent },
   {path:"books/:id",component:BookComponent },
   {path:":year/:module",component:ModuleComponent },
